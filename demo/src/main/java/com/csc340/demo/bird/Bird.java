@@ -24,14 +24,16 @@ public class Bird {
 
     private String color;
 
+    private String img_url;
 
-    public Bird(int birdId, String name, String description, String species, String color) {
+
+    public Bird(int birdId, String name, String description, String species, String color, String img_url) {
         this.birdId = birdId;
         this.name = name;
         this.description = description;
         this.species = species;
         this.color = color;
-
+        this.img_url = img_url;
     }
 
     public int getBirdId() {
@@ -75,6 +77,13 @@ public class Bird {
         this.color = color;
     }
 
+    public String getImg_url(){
+        return img_url;
+    }
+
+    public void setImg_url(String img_url){
+        this.img_url = img_url;
+    }
 
 }
 

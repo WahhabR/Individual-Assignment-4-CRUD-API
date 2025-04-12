@@ -33,6 +33,7 @@ public class BirdService {
         existing.setDescription(bird.getDescription());
         existing.setSpecies(bird.getSpecies());
         existing.setColor(bird.getColor());
+        existing.setImg_url(bird.getImg_url());
 
 
         //Technically the 4 lines above are not necessary because the save method merges by default.
